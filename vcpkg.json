@@ -1,0 +1,15 @@
+{
+  "name": "vcpkg-sdl2-example",
+  "version-semver": "0.1.0",
+  "dependencies": [
+    {
+      "name":"sdl2"
+    },
+    {
+      "name":"sdl2-ttf"
+    },  
+    {
+      "name":"sdl2-image"
+    }
+  ]
+}
