@@ -12,6 +12,7 @@
       "generator": "Visual Studio 17 2022",
       "environment": {
         "CXX": "$env{MSVC_BIN}/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/cl.exe"
+        "C": "$env{MSVC_BIN}/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/cl.exe"
       },
       "cacheVariables": {
         "CMAKE_TOOLCHAIN_FILE":"$env{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake",
@@ -26,6 +27,7 @@
       "generator": "Ninja",
       "environment": {
         "CXX": "$env{CLANG_BIN}/clang.exe"
+        "C": "$env{CLANG_BIN}/clang.exe"
       },
       "cacheVariables": {
         "CMAKE_TOOLCHAIN_FILE":"$env{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake",
